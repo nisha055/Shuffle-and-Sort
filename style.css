@@ -1,0 +1,149 @@
+.full {
+  background-color: #efefef;
+  border-top: 20px solid #333333;
+
+}
+.center {
+  text-align: center;
+  padding: 30px;
+}
+.card {
+  color: white;
+  height: 235px;
+  width: 320px;
+  font-size: 100px;
+}
+.shuffle-sort{
+  display: none;
+}
+.shuffle-sort-2{
+  display: block;
+}
+
+.buttons {
+  color: white;
+  width: 250px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 12px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #2b8ead;
+  font-size: 30px;
+}
+
+#card-1 {
+  background-color: #72c3dc;
+}
+
+#card-2 {
+  background-color: #bfbfbf;
+}
+
+#card-3 {
+  background-color: #2b8ead;
+}
+
+#card-4 {
+  background-color: #333333;
+}
+
+#card-5 {
+  background-color: #2b8ead;
+}
+
+#card-6 {
+  background-color: #6f98a8;
+}
+
+#card-7 {
+  background-color: #bfbfbf;
+}
+
+#card-8 {
+  background-color: #72c3dc;
+}
+
+#card-9 {
+  background-color: #000000;
+}
+
+.info {
+  text-align: center;
+  background-color: #efefef;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .full {
+    background-color: white;
+  }
+  .shuffle-sort{
+    display: block;
+  }
+  .shuffle-sort-2{
+    display: none;
+  }
+
+  .center {
+    font-size: 30px;
+  }
+  .card {
+    color: black;
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+  }
+
+  #card-1 {
+    background-color: #efefef;
+    border-left: 10px solid #72c3dc;
+  }
+
+  #card-2 {
+    background-color: #efefef;
+    border-left: 10px solid #bfbfbf;
+  }
+
+  #card-3 {
+    background-color: #efefef;
+    border-left: 10px solid #2b8ead;
+  }
+
+  #card-4 {
+    background-color: #efefef;
+    border-left: 10px solid #333333;
+  }
+
+  #card-5 {
+    background-color: #efefef;
+    border-left: 10px solid #2b8ead;
+  }
+
+  #card-6 {
+    background-color: #efefef;
+    border-left: 10px solid #6f98a8;
+  }
+
+  #card-7 {
+    background-color: #efefef;
+    border-left: 10px solid #bfbfbf;
+  }
+
+  #card-8 {
+    background-color: #efefef;
+    border-left: 10px solid #72c3dc;
+  }
+
+  #card-9 {
+    background-color: #efefef;
+    border-left: 10px solid #000000;
+  }
+
+  .info {
+    background-color: white;
+  }
+}
